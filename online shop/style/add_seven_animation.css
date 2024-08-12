@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* Add Seven Animation Document */
+
+.add_seven{
+	animation: background 6s infinite;
+}
+
+@keyframes background{
+	0%{	background-image: url(images/lion.png);
+	background-size: 400px 240px;
+	background-repeat: no-repeat;}
+
+	23%{background-image: url(images/lion_two.png);
+	background-size: 400px 240px;
+	background-repeat: no-repeat;}
+	25%{background-image: url(images/lion_two.png);
+	background-size: 400px 240px;
+	background-repeat: no-repeat;}
+
+	50%{background-image: url(images/lion_three.png);
+	background-size: 400px 240px;
+	background-repeat: no-repeat;}
+
+	52%{background-image: url(images/lion_three.png);
+	background-size: 400px 240px;
+	background-repeat: no-repeat;}
+
+	73%{background-image: url(images/lion_four.png);
+	background-size: 400px 240px;
+	background-repeat: no-repeat;}
+
+	75%{background-image: url(images/lion_four.png);
+	background-size: 400px 240px;
+	background-repeat: no-repeat;}
+	}

@@ -1,0 +1,438 @@
+@charset "utf-8";
+
+/*Add Nine Animation Document */
+
+.add_nine_slider{
+	width:2850px;
+	height:350px;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	-webkit-animation:slide 10s infinite;
+	animation:slide 20s infinite;
+}
+
+@keyframes slide{
+	0%{top:0; left:0;}
+
+	20%{top:0;left:0;}
+
+	21%{left:-565px;}
+	23%{left:-565px;}
+	40%{left:-565px;}
+
+
+	41%{left:-1130px;}
+	43%{left:-1130px;}
+	64%{left:-1130px;}
+
+	65%{left:-1695px;}
+	67%{left:-1695px;}
+
+	80%{left:-1695px;}
+
+	81%{left:-2260px;}
+	83%{left:-2260px;}
+
+	100%{left:-2260px;}
+}
+
+
+
+
+.car_blue_box{
+	width:565px;
+	height:350px;
+	float: left;
+	box-sizing: border-box;
+	overflow: hidden;
+	
+}
+
+.car_blue{
+	float: left;
+}
+
+.blue_car_name{
+	display: block;
+	font-family: Geometr415 Blk BT;
+	font-size: 30px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -80px;
+	left:30px;
+	-webkit-animation: bcn 5s infinite;
+	animation: bcn 5s infinite;
+}
+
+@keyframes bcn{
+	0%{bottom:-80px;}
+
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.blue_car_prize{
+	display: block;
+	font-family: Elephant;
+	font-size: 18px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: bcp 5s infinite;
+	animation: bcp 5s infinite;
+	animation-delay: 1s;
+	
+}
+
+@keyframes bcp{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.blue_car_milaze{
+	display: block;
+	font-family: Exotc350 Bd BT;
+	font-size: 15px;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: bcm 5s infinite;
+	animation: bcm 5s infinite;
+	animation-delay: 2s;
+}
+
+@keyframes bcm{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+
+
+.car_black_box{
+	width:565px;
+	height:350px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.car_black{
+	float: left;
+}
+
+.black_car_name{
+	display: block;
+	font-family: Geometr415 Blk BT;
+	font-size: 30px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -80px;
+	left:30px;
+	-webkit-animation: blcn 5s infinite;
+	animation: blcn 5s infinite;
+	animation-delay: 5s;
+}
+
+@keyframes blcn{
+	0%{bottom:-80px;}
+
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.black_car_prize{
+	display: block;
+	font-family: Elephant;
+	font-size: 18px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: blcp 5s infinite;
+	animation: blcp 5s infinite;
+	animation-delay: 6s;
+	
+}
+
+@keyframes blcp{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.black_car_milaze{
+	display: block;
+	font-family: Exotc350 Bd BT;
+	font-size: 15px;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: blcm 5s infinite;
+	animation: blcm 5s infinite;
+	animation-delay: 7s;
+}
+
+@keyframes blcm{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.car_cyan_box{
+	width:565px;
+	height:350px;
+	float: left;
+	box-sizing: border-box;
+	-webkit-animation: ccn 5s infinite;
+	animation: ccn 5s infinite;
+	overflow: hidden;
+}
+
+.car_cyan{
+	float: left;
+}
+
+.cyan_car_name{
+	display: block;
+	font-family: Geometr415 Blk BT;
+	font-size: 30px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -80px;
+	left:30px;
+	-webkit-animation: ccn 5s infinite;
+	animation: ccn 5s infinite;
+	animation-delay: 9s;
+}
+
+@keyframes ccn{
+	0%{bottom:-80px;}
+
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.cyan_car_prize{
+	display: block;
+	font-family: Elephant;
+	font-size: 18px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: ccp 5s infinite;
+	animation: ccp 5s infinite;
+	animation-delay: 10s;
+	
+}
+
+@keyframes ccp{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.cyan_car_milaze{
+	display: block;
+	font-family: Exotc350 Bd BT;
+	font-size: 15px;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: ccm 5s infinite;
+	animation: ccm 5s infinite;
+	animation-delay: 11s;
+}
+
+@keyframes ccm{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.car_white_box{
+	width:565px;
+	height:350px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.car_white{
+	float: left;
+}
+
+.white_car_name{
+	display: block;
+	font-family: Geometr415 Blk BT;
+	font-size: 30px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -80px;
+	left:30px;
+	-webkit-animation: wcn 5s infinite;
+	animation: wcn 5s infinite;
+	animation-delay: 13s;
+}
+
+@keyframes wcn{
+	0%{bottom:-80px;}
+
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.white_car_prize{
+	display: block;
+	font-family: Elephant;
+	font-size: 18px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: wcp 5s infinite;
+	animation: wcp 5s infinite;
+	animation-delay: 14s;
+	
+}
+
+@keyframes wcp{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.white_car_milaze{
+	display: block;
+	font-family: Exotc350 Bd BT;
+	font-size: 15px;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: wcm 5s infinite;
+	animation: wcm 5s infinite;
+	animation-delay: 15s;
+}
+
+@keyframes wcm{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.car_red_box{
+	width:565px;
+	height:350px;
+	float: left;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.car_red{
+	float: left;
+}
+
+.red_car_name{
+	display: block;
+	font-family: Geometr415 Blk BT;
+	font-size: 30px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -80px;
+	left:30px;
+	-webkit-animation: rcn 5s infinite;
+	animation: rcn 5s infinite;
+	animation-delay: 16s;
+}
+
+@keyframes rcn{
+	0%{bottom:-80px;}
+
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.red_car_prize{
+	display: block;
+	font-family: Elephant;
+	font-size: 18px;
+	font-style: italic;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: rcp 5s infinite;
+	animation: rcp 5s infinite;
+	animation-delay: 17s;
+	
+}
+
+@keyframes rcp{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}
+
+.red_car_milaze{
+	display: block;
+	font-family: Exotc350 Bd BT;
+	font-size: 15px;
+	color:#FF1800;
+	position: relative;
+	bottom: -10px;
+	left:30px;
+	-webkit-animation: rcm 5s infinite;
+	animation: rcm 5s infinite;
+	animation-delay: 18s;
+}
+
+@keyframes rcm{
+	0%{bottom:-10px;}
+
+	10%{bottom:60px;}
+	
+	100%{bottom:60px;}
+}

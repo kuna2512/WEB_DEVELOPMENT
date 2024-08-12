@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* Add Three Animation Document */
+
+.add_three_pic{
+	position:relative;
+	-webkit-animation: addthreepic 4s infinite;
+	animation: addthreepic 4s infinite;
+}
+
+@keyframes addthreepic{
+	0%{top:0; left:0;}
+
+	20%{transform: rotate(360deg);
+	width:240px; height:200px;
+	left:240px;}
+	30%{width:240px; height:200px;}
+
+	60%{transform: rotate(360deg);
+		width:730px; height:440px;
+		}
+
+
+	70%{width:730px; height:440px;
+		left:-5px;}	
+
+	100%{top:0; left:10px;}	
+}
+
+.add_three_pic_text_one{
+	-webkit-animation: ecp 4s infinite;
+	animation: ecp 4s infinite;
+}
+
+@keyframes ecp{
+	0%{color:#0167C1;}
+	49%{color:#0167C1;}
+	50%{color:white;}
+	55%{color:white;}
+	100%{color:white;}
+}
+

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* Animation Document */
+.kids_care_name{
+	font-size:30px;
+	text-align:center;
+	font-family:Exotc350 Bd BT;
+	display:block;
+	font-weight:bold;
+	-webkit-animation:4s kidscarename infinite;
+	animation:4s kidscarename infinite;
+	position: relative;
+	animation-delay:1.4s;
+}
+
+@keyframes kidscarename{
+	0%{top:0;left:0;}
+	25%{top:-50px;left:0;}
+	50%{top:0;left:0;}
+}
+
+.kidscare_picone{
+	-webkit-animation:kidscare 4s infinite;
+	animation:kidscare 4s infinite;
+	position:relative;
+	top:0;
+	left:0;
+}
+
+@keyframes kidscare{
+
+0%{top:0;left:0;}
+25%{top:50px;left:0;height:140px;}
+50%{top:-50px;left:0;}
+
+
+
+}

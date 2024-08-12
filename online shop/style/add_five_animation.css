@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* Add Five Animation Document */
+
+.dog{
+	-webkit-animation: dog 2s infinite;
+	animation: dog 2s infinite;
+}
+@keyframes dog{
+	0%{-webkit-filter:grayscale(100%);
+		filter:grayscale(100%);
+	}
+
+	45%{
+		-webkit-filter:grayscale(0%);
+		filter:grayscale(0%);
+	}
+
+	75%{
+		-webkit-filter:brightness(110%);
+		filter:brightness(110%);
+	}
+}

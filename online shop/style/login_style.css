@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+ /* CSS Document */
+
+ body{
+ 	padding: 0;
+ 	margin: 0;
+
+ }
+
+ .page{
+ 	width: 1349px;
+ 	height:665px;
+ 	margin:0 auto;
+ 	box-sizing: border-box;
+ }
+
+ .page header{
+ 	width:1349px;
+ 	height:665px;
+ 	float: left;
+ 	box-sizing: border-box;
+ 	background-image:url(images/bg.jpg);
+ 	background-position:fixed;
+ 	background-size: 100% 665px;
+ 	background-attachment:fixed;
+
+
+ }
+
+ header .header_con{
+ 	width:1349px;
+ 	height:665px;
+ 	float:left;
+ 	box-sizing: border-box;
+ 	background-color:black;
+ 	opacity: 0.7;
+
+
+ }
+
+ .header_content{
+ 	width:1349px;
+ 	height:665px;
+ 	float:left;
+ 	box-sizing: border-box;
+ 	position: absolute;
+ }
+
+
+ nav{
+ 	width:1349px;
+ 	height:50px;
+ 	float:left;
+ 	position:fixed;
+ 	background-color: #efefef;
+ 
+	}
+
+.left_nav_con{
+	width: 690px;
+	height:30px;
+	float: left;
+	box-sizing: border-box;
+	font-family:Exotc350 Bd BT ;
+	margin-top:13px;
+	font-size:20px;
+	margin-left:12px;
+	color: #323232;
+	font-weight: normal;
+
+}
+
+.nav_con{
+	width: 645px;
+	height:50px;
+	float: left;
+	box-sizing: border-box;
+ 	padding: 15px;
+}	
+
+.nav{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 600px;
+	float:  right;
+}
+
+.nav .nav_menu{
+	display: inline-block;
+	color:white;
+	margin-left: 50px;
+	font-family: mangal;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.menu_link{
+	text-decoration:none;
+	color:#323232;
+}
+
+
+
+
+ h1{
+ 	color:#323232;
+ 	font-size: 150px;
+ 	font-family: Exotc350 Bd BT;
+ 	text-align: center;
+ 	padding: 0;
+ 	margin: 0;
+ 	margin-top: 160px;
+ 	
+ }
+
+ .login_form_con{
+ 	width:1349px;
+ 	height:300px;
+ 	float:left;
+ 	box-sizing: border-box;
+ 	padding:50px;
+ }
+
+input[type=text],[type=password]{
+ 	width:550px;
+ 	height:45px;
+ 	box-sizing: border-box;
+ 	border:none;
+ 	background-color:inherit;
+ 	border-bottom:1px solid white;
+ 	padding-top:20px;
+ 	font-size:15px;
+ 	color:white;
+ 	
+
+ }
+
+ input[type=text]{
+float:left;
+
+ }
+
+  input[type=password]{
+float:right;
+
+ }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  font-weight:normal;
+  font-family:calibri;
+  font-size:20px;
+  text-transform: capitalize;
+  
+}
+
+
+
+ .sub{
+	width:1249px;
+	height:60px;
+	float:left;
+	clear:left;
+	margin-top:40px;
+ }
+
+  input[type=submit]{
+ 	width:110px;
+ 	height:45px;
+ 	box-sizing:border-box;
+ 	margin:10px auto;
+ 	display:block;
+ 	border:none;
+ 	background-color:#efefef;
+ 	border:0.5px solid black;
+ 	border-radius:45px;
+ 	}
+
+ 	input[type=text]:focus,input[type=password]:focus{
+ 		outline:none;
+ 		border-bottom:none;
+ 		border-top:1px solid white;
+ 	
+ 	}
+
+ 	input[type=submit]:focus
+ 	{
+ 		outline:none;
+ 		cursor:pointer;
+ 		background-color:pink;
+ 	}

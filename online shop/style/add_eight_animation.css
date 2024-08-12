@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* Add Eight Animation Document */
+
+.add_eight_pic{
+	position:absolute;
+	-webkit-animation:fade 6s infinite;
+	animation:fade 6s infinite;
+}
+
+@keyframes fade{
+	0%{filter:brightness(100%);}
+	24%{filter:brightness(100%);}
+
+	25%{filter:contrast(3);}
+	27%{filter:contrast(3);}
+	48%{filter:contrast(3);}
+
+	49%{filter:brightness(110%);}
+	50%{filter:brightness(110%);}
+	74%{filter:brightness(110%);}
+
+	75%{filter:saturate(20);}
+	76%{filter:saturate(20);}
+	100%{filter:saturate(20);}
+
+}
