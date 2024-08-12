@@ -1,0 +1,39 @@
+<!-- 
+Ragular Expression:- regular expression are used to perform pattern-matching and
+"Search-and-replace" function on text. It is also known as registry expression.
+ragular expression is case sensitive.
+syntac :-
+
+1. /[pattern]/modifier
+pattern :- [a-z]
+pattern :-[1-9]
+modifier :- g (for case sensitive)
+modifier :- i (for uncase sensitive)
+
+ex :-
+/[a-z]/g
+/[A-Z]/g
+/[0-9]/g
+/[A-z]/i
+/[a-Z]/i
+/[a-9]/i
+___________________________________
+
+2. match()
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x="i am going to class";
+        var y=x.match("going");
+        window.alert(x);
+    </script>
+</body>
+</html>

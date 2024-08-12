@@ -1,0 +1,68 @@
+#clockbox{
+    width:600px;
+    height:600px;
+    border: 20px groove red;
+    margin:0 auto;
+    border-radius:50%;
+    background-color:#ccc;
+    box-shadow: 0px 0px 10px;
+
+}
+#point{
+    width:50px;
+    height:50px;
+    background-color:black;
+    border-radius:50%;
+    margin:235px auto;
+    box-shadow: 0px 0px 5px;
+    position:fixed;
+    left:360px;
+}
+#twobelb{
+    text-align:center;
+    padding:0;
+    margin:0;
+
+}
+#one{
+    text-align:center;
+    position:relative;
+    left:200px;
+    top:15px;
+}
+#three{
+    position:relative;
+    left:580px;
+    top:210px;
+
+}
+#nine{
+    position:relative;
+    top:165px;
+    left:5px;
+}
+#six{
+    text-align:center;
+    position:relative;
+    top:385px;
+}
+#clock-btn1{
+    width:20px;
+    height:40px;
+    background-color:black;
+
+}
+#sui{
+    width:20px;
+    height:200px;
+    background-color:black;
+    margin:0 auto;
+    border-radius:10px;
+}
+#sui2{
+    width:200px;
+    height:20px;
+    background-color:rgb(239, 11, 11);
+    margin:0 auto;
+    border-radius:10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        username<br>
+        <input type="text" name="username" id="user">
+        <br>
+        <br>
+        Password
+        <br>
+        <input type="password" name="Password" id="pwd">
+        <br>
+        <br>
+        <input type="submit" value="Login" onclick="login()">
+    </form>
+    <h1 id="result"></h1>
+    <script>
+        function login(){
+            var x=document.getElementById("user").value;
+            var y =document.getElementById("pwd").value;
+            x=="kunal kumar" && y== 1234 ? window.alert("Login success") : window.alert("Login failed");
+        }
+    </script>
+</body>
+</html>

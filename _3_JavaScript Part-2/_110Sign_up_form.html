@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="_110Sign_up_form.js"></script>
+    <link rel="stylesheet" href="_110Sign_up_form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="form-box">
+        <form>
+        <h3 id="sign">Sign Up Form</h3>
+        <br/>
+        Firstname
+        <br/>
+        <input id="name" onclick="show1()" oninput="check1()">
+        <br/>
+        <br/>
+        Lastname
+        <br/>
+        <input id="name2" onclick="show2()" oninput="check2()">
+        <br/>
+        <br/>
+        Mobile
+        <br/>
+        <input id="mobile" type="number" onclick="show3()" oninput="check3()">
+        <br/>
+        <br/>
+        Re-Mobile
+        <br/>
+        <input id="mobile2" type="number" onclick="show4()" oninput="check4()">
+        <br>
+        <br>
+        Email
+        <br>
+        <input id="email" type="email" onclick="show5()" oninput="check5()">
+        <br>
+        <br>
+        Username
+        <br>
+        <input id="user" name="username" onclick="show6()" oninput="check6()">
+        <br>
+        <br>
+        Password
+        <br>
+        <input id="pwd" type="password" name="password" onclick="show7()" oninput="check7()">
+        <br>
+        <br>
+        <br>
+        <input disabled="disabled" type="submit" value="Sign Up" id="sign-up" >
+    </form>
+    <div id="mess1"><p id="upper1">Uppercade required</p></div>
+    <div id="mess2"><p id="upper2">Uppercade required</p></div>
+    <div id="mess3"><p id="num1">Number required</p></div>
+    <div id="mess4"><p id="num2">Number required</p></div>
+    <div id="mess5">
+        <p id="emaill">@gmail.com</p>
+        <p id="lower1">Lowercase required</p>
+        <p id="num3">Number required</p>
+    </div>
+    <div id="mess6">
+        <p id="upper3">Uppercade required</p>
+        <p id="lower2">Lowercade required</p>
+        <p id="num4">Number required</p>
+    </div>
+    <div id="mess7">
+        <p id="upper4">Uppercade required</p>
+        <p id="lower3">Lowercade required</p>
+        <p id="num5">Number required</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!-- 
+charAt() :- ka use hum ye dekhane ke liye karate hain ki kis place pe kaun sa no. or latter likha huaa hain.
+isNaN()  :- ka use data type pata karane ke liye karate hain ki usame no. hain ki nahi.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="user">
+        <button onclick="demo()">Check now</button>
+        <br><br>
+        <input type="text" id="number">
+        <button onclick="wap()"> Check no. </button>
+    </form>
+    <script>
+        function demo(){
+        var x=document.getElementById("user").value;
+        window.alert(x.charAt(0));
+    }
+    function wap(){
+        var y = document.getElementById("number").value;
+        isNaN(y) ? window.alert("Please enter number only") : window.alert("your input is a number");
+    }
+    </script>
+</body>
+</html>

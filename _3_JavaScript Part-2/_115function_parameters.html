@@ -1,0 +1,48 @@
+<!-- 
+ architecture system :- it's means program making by types.
+ there are two types of architecture system
+ 1. console based system (16 bit) :- terminal, dos, linux and SQL are based example of colnsol based system. programming max-size should be 64kb.
+ in the work in consol we using java + c language or java + beamshell language.
+ 2. gui based system (32 bit or 64 bit):- softwere applications are known as gui based system.programming max-size should be 128kb.
+ eg:- ms-office, photoshop, paint brush,
+-->
+<!-- 
+1. use of function :- function ka use code block ke liye karate hain.
+ memory, 64kb to 128kb
+ if we make two function or more in that condition one by one function execute 
+
+ 2. types of function :-
+ a. predefine function
+ b. userdefine function :- jaha pe coding ki jati hain use function defination or jaha function ko call kiya jata hain use function call kaha jata hain.
+
+3. function call :- it is a method that provide fasility of print result
+
+4. function parameters or argument :- that code written under the function that is known as function parameters or argument.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="user">
+        <input type="text" id="user2">
+        <button onclick="a()">Calculate</button>
+    </form>
+    <script>
+        function a(){
+            var x =document.getElementById("user").value;
+            var y =document.getElementById("user2").value;
+            add(Number(x), Number(y));
+        }
+        function add(a,b){
+            window.alert(a+b);
+        }
+</script>
+
+</form>
+</body>
+</html>

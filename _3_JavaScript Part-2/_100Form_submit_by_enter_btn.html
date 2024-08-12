@@ -1,0 +1,33 @@
+<!-- In this coding we can use enter button to submit the form. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return login()">
+    Username
+    <br>
+    <input type="text" name="username" id="user">
+    <br><br>
+    Password
+    <br>
+    <input type="password" name="password" id="pwd">
+    <br><br>
+    <input type="submit" value="Login" >
+    <br>
+</form>
+    <h1 id="result"></h1>
+    <script>
+        function login(){
+            var user=document.getElementById("user").value;
+            var pass=document.getElementById("pwd").value;
+            var check= user=="PRIYANSHU YADAV" && pass==1505 ? "Login Successful" : "Login Failed";
+            document.getElementById("result").innerHTML=check;
+            return false;
+        }
+    </script>
+</body>
+</html>

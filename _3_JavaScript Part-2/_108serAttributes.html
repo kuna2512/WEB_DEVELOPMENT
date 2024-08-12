@@ -1,0 +1,39 @@
+<!-- setAttribute("attribute","value")parameters 
+ it is use to set the attributes in html.
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bg">
+    <h1 id="demo">Wap Institute</h1>
+    <button onclick="wap()">click me to change h1 positon</button>
+    <h3 id="kunal">I'm the student of wap institute</h3>
+    <button id="btn">click me to change the position of h3</button>
+    <br>
+    <br>
+    <button onclick="bgback()">Click me to change Bg</button>
+    <script>
+        function wap (){
+            var x=document.getElementById("demo");
+            x.setAttribute("align","center");
+        }
+        var x=document.getElementById("btn");
+        x.onclick=function right(){
+        var y=document.getElementById("kunal");
+            y.setAttribute("align","right");
+        }
+        function bgback(){
+            var x=document.getElementById("bg");
+            x.setAttribute("bgcolor","red");
+        }
+
+    </script>
+</body>
+</html>

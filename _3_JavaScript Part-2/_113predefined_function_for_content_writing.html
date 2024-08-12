@@ -1,0 +1,29 @@
+<!-- 
+Predefine function for content writing
+1. createElement("TAGNAME")  :- html ke kisi bhi tag ko set kar sakate hain, yaha hum tag ko small letter me likhenge without angle bricate.
+ eg :- createElement("p")
+
+2. createTextNode("text here")  :- this is used for write elelment of tags in javaScript. 
+3. appendChild() :- it is show how to write tags with element in javaScript.
+
+4. camelCase :- it is use to write lowercase and uppercase in a single Element.
+5. sentence case :- it define that first letter should be capital.
+6. capitalize :- it define that every word of any sectence should start with capital.
+   eg :- Kunal Is A Boy. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <script>
+      var tagname = document.createElement("h1");
+      var tagtext = document.createTextNode("saurav sir");
+      tagname.appendChild(tagtext);
+      document.body.appendChild(tagname);
+   </script>
+</body>
+</html>

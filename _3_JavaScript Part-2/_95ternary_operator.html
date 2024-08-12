@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ternary Operator</title>
+    <!-- ternary operator is also known as condition operator -->
+</head>
+<body>
+    <form>
+        username
+        <br>
+        <input type="text" name="username" id="user">
+        <input type="submit" value="chech" onclick="wap()" >
+        <br>
+        <br>
+        Nation
+        <br>
+        <input type="text" name="nation" id="nation">
+        <input type="submit" value="check" onclick="demo()">
+    </form>
+    <script>
+        function wap(){
+            var x=document.getElementById("user").value;
+            x=="saurav" ? window.alert("user found"): window.alert("user not found");
+        }
+        function demo(){
+            var x=document.getElementById("nation").value;
+            x=="bharat" ? window.alert("nation is right") : window.alert("nation is wrong");
+        }
+    </script>
+</body>
+</html>

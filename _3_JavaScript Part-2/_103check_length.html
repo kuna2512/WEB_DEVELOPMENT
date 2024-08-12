@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="user">
+        <button onclick="check()">check length</button>
+    </form>
+    <script>
+        function check(){
+            var x=document.getElementById("user").value;
+            var check=x.length;
+            window.alert(check);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="user-one">
+        <input type="text" id="user-two">
+        <button onclick="return main()">Calculate</button>
+    </form>
+    <h1>Your Additon is</h1>
+    <p id="add-result"></p>
+
+    <h1>Your Substract is</h1>
+    <p id="sub-result"></p>
+
+    <h1>Your Multiply is</h1>
+    <p id="multi-result"></p>
+
+    <h1>Your Division is</h1>
+    <p id="div-result"></p>
+    <script>
+        function main(){
+            var x =Number(document.getElementById("user-one").value);
+            var y =Number(document.getElementById("user-two").value);
+            add(x,y);
+            sub(x,y);
+            multi(x,y);
+            div(x,y);
+            return false;
+        }
+        function add(a,b){
+            var result = document.getElementById("add-result");
+            result.innerHTML = a+b;
+        }
+        function sub(a,b){
+            var result =document.getElementById("sub-result");
+            result.innerHTML = a-b;
+
+        }
+        function multi(a,b){
+            var result = document.getElementById("multi-result");
+            result.innerHTML = a*b;
+        }
+        function div(a,b){
+            var result = document.getElementById("div-result");
+            result.innerHTML = a/b;
+        }
+    </script>
+</body>
+</html>
