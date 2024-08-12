@@ -1,0 +1,24 @@
+<!--  -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // agar koi variable function ke under ho to use hum local variable kahate hain.
+        // lekin koi variable function ke bahar ho to use hum globle variable kahate hain.
+        var a=6;
+        function one(){
+            window.alert(a+1);
+        }
+    function two(){
+        window.alert(a+2);
+    }
+    </script>
+  </head>
+  <body>
+    <button onclick="one()">one</button>
+    <button onclick="two()">two</button>
+  </body>
+  </html>

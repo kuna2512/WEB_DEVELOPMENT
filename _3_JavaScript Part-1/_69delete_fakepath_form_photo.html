@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function dem(){
+            var x=document.getElementById("upload").value
+            // .replace(/.*(\/|\\)/, '') this is perdefine way to remove fakepath from photo.
+            window.alert(x);
+        }
+    </script>
+</head>
+<body bgcolor="yellow">
+    <input type="file" accept=".jpg" id="upload" onchange="dem()">
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:720px;
+            height:680px;
+            border:10px solid red;
+            margin:0 auto;
+        }
+        p{
+            float:left;
+            margin-top:33px;
+            margin-left:2px;
+        }
+        input{
+            width:175px;
+            position:relative;
+            top:33px;
+            float:left;
+            filter:
+        
+        }
+    </style>
+    <script>
+        function bright(){
+            var x=document.getElementById("brightness").value;
+            var y=document.getElementById("pic");
+            y.style.WebkitFilter="brightness("+x+"%)";
+            y.style.MozFilter="brightness("+x+"%)";
+            y.style.OFilter="brightness("+x+"%)";
+            y.style.filter="brightness("+x+"%)";
+        }
+        function contra(){
+            var x=document.getElementById("contrast").value;
+            var y=document.getElementById("pic");
+            y.style.WebkitFilter="contrast("+x+"%)";
+            y.style.MoZFilter="contrast("+x+"%)";
+            y.style.OFilter="contrast("+x+"%)";
+            y.style.filter="contrast("+x+"%)";
+        }
+        function satura(){
+            var x=document.getElementById("saturate").value;
+            var y=document.getElementById("pic");
+            y.style.WebkitFilter="saturate("+x+"%)";
+            y.style.MozFilter="saturate("+x+"%)";
+            y.style.OFilter="saturate("+x+"%)";
+            y.style.filter="saturate("+x+"%)";
+        }
+    </script>
+</head>
+<body>
+    <h2 align="center">Image Effects</h2>
+    <div><img src="images/pic.png" width="720px" height="580px" id="pic">
+        <p>Brightness</p><input id="brightness" type="range" min="0" max="150" oninput="bright()">
+        <p>Contrast</p><input id="contrast"type="range" min="0" max="400" oninput="contra()">
+        <p>Saturate</p><input id="saturate" type="range" min="0" max="400" oninput="satura()">
+    </div>
+    <p id="result"></p>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        header{
+            width:982px;
+            height:100px;
+            background-color:black;
+            border:1px solid black;
+            margin:0 auto;
+        }
+        h1{
+            color:white;
+            text-align:center;
+            padding-top:10px;
+        }
+        section{
+            width:982px;
+            height:555px;
+            border:5px solid black;
+            margin:0 auto;
+        }
+        div{
+            width:400px;
+            height:400px;
+            background-color: #ccc;
+            margin:80px auto;
+            border-radius:50%;
+            box-shadow: 0px 0px 10px;
+            -webkit-animation: 4s kunal infinite;
+            -o-animation: 4s kunal infinite;
+            -moz-animation: 4s kunal infinite;
+            animation: 4s kunal infinite;
+            
+        }
+        @keyframes kunal{
+            0%{background-color:red;}
+            20%{background-color:rgb(22, 205, 68);}
+            40%{background-color:rgb(30, 0, 255);}
+            60%{background-color:rgb(162, 255, 0);}
+            80%{background-color:rgb(0, 183, 255);}
+            100%{background-color:rgb(255, 0, 170);}
+
+        }
+        footer{
+            width:982px;
+            height:60px;
+            background-color:black;
+            border:5px solid black;
+            margin:0 auto;
+        }
+        button{
+            width:180px;
+            height:40px;
+            margin:0 auto;
+            margin-left:100px;
+            border-radius:50px;
+            box-shadow: 0px 0px 10px #bbbbc8;
+            border:none;
+            float:left;
+        }
+        button:focus{
+            outline:none;
+            border:none;
+            background-color:red;
+            border-radius:70px 20px ;
+            box-shadow: 0px 0px 10px #c46969;
+        }
+        #up{
+            float:left;
+        }
+        b{
+            font-weight:normal;
+            position:relative;
+            bottom:28px;
+        }
+        #ganna{
+            border:1px solid red;
+            width:180px;
+            height:40px;
+            position:relative;
+            opacity:0;
+            background-color:white;
+        }
+    </style>
+    <script>
+        function song(){
+            var x=document.getElementById("ganna ").value.replace(/.*(\/|\\)/, '');
+            var y=document.getElementByid("music");
+            y.src=x;
+        }
+        function playaudio(){
+            var x=document.getElementById("start");
+            x.play();
+        }
+        function pauseaudio(){
+            var x=document.getElementById("stop");
+            x.pause();
+        }
+    </script>
+</head>
+<body>
+    <header><h1>WAP AUDIO PLAYER</h1></header>
+    <section><div><autio src="" id="music"></autio></div></section>
+    <footer>
+        <button id="up"><input type="file" accept=".mp3" id="ganna" onchange="song()"><b>UPLOAD AUDIO</b></button>
+        <button id="start" onclick="playaudio()">PLAY AUDIO</button>
+        <button id="stop" onclick="pauseaudio()">PAUSE AUDIO</button>
+    </footer>
+</body>
+</html>

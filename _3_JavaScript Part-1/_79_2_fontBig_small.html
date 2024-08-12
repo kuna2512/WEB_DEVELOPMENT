@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #fixed-box{
+            width:250px;
+            height:80px;
+            background-color:red;
+            position:fixed;
+            bottom:0;
+            left:50%;
+
+        }
+        #showtext{
+            text-align:center;
+            color:white;
+            font-weight:bold;
+            font-size:18px;
+        }
+        #rang{
+            position:fixed;
+            bottom:0;
+            left:54%;
+        }
+    </style>
+    <script>
+        function demo(){
+            var x=document.getElementById("rang").value;
+            var y=document.getElementById("result");
+            y.style.fontSize=x+"%";
+            var z=document.getElementById("showtext");
+            z.innerHTML="Your font size is now = "+x+"%";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="result">WAP INSTITUTE</h1>
+    <div id="fixed-box">
+    <p id="showtext"></p>
+    <input id="rang" type="range" min="0" max="1000" oninput="demo()">
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="_70mediaPlayer.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function playvideo(){
+            var x=document.getElementById("video");
+            x.play();
+        }
+        function pausevideo(){
+            var x=document.getElementById("video");
+            x.pause();
+        }
+        function vload(){
+            var x=document.gerElementById("upload").value.replace(/.*(\/|\\)/, '');
+            var y=docement.getElementById("video");
+            y.src=x;
+        }
+    </script>
+</head>
+<body>
+        <header id="head">
+            <h1 id="title">WAP VIDEO PLAYER</h1>
+        </header>
+        <section id="sect">
+            <video src="images/wap.mp4" id="video" width="962px" height="546px"></video>
+        </section>
+        <footer id="foot">
+                <button><input type="file" accept=".mp4" id="upload" onchange="vload()">Upload video</button>
+                <button onclick="playvideo()">Play Video</button>
+                <button onclick="pausevideo()">Pause Video</button>
+        </footer>
+</body>
+</html>

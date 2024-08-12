@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:720px;
+            height:200px;
+            /* border:1px soiid red; */
+        }
+    </style>
+    <script>
+        function wap(){
+            var x=document.getElementById("int1");
+            var y=document.getElementById("int2");
+            var z=document.getElementById("result");
+            z.innerHTML=("Your remainder is ="+ x%y);
+        }
+    </script>
+</head>
+<body>
+    <h1>Find your remainder</h1>
+    <hr>
+    <input type="number" id="int1">
+    <input type="number" id="int2">
+    <button onclick="wap()">get remainder</button>
+    <div>
+        <p id="result"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:720px;
+            height:200px;
+            border:1px solid red;
+        }
+    </style>
+    <script>
+        function update(){
+            var a=document.getElementById("user").value;
+            var b=document.getElementById("result");
+            b.innerHTML="your answer is :"+a;
+        }
+    </script>
+</head>
+<body>
+    <input id="user">
+    <button onclick="update()">Update</button>
+    <div>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
