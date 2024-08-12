@@ -1,0 +1,79 @@
+@charset "utf-8";
+body{
+    background:url(image/mask.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+}
+.a1{
+    width:500px;
+    height:500px;
+    border:1px solid red;
+    margin:0 auto;
+    background:url(image/linkden\ logo.png) no-repeat top right;
+
+}
+.a2{
+    width:500px;
+    height:500px;
+    border:1px solid red;
+    margin:0 auto;
+    background:url(image/linkden\ logo.png) no-repeat top 150px right 100px;
+
+}
+.a3{
+    width:500px;
+    height:500px;
+    border:1px solid red;
+    margin:0 auto;
+    background:url(image/linkden\ logo.png) no-repeat center left;
+
+}
+.a4{
+    width:500px;
+    height:500px;
+    border:1px solid red;
+    margin:0 auto;
+    background:url(image/linkden\ logo.png) no-repeat center;
+
+}
+.a5{
+    width:500px;
+    height:500px;
+    border:1px solid red;
+    margin:0 auto;
+    background:url(image/linkden\ logo.png) no-repeat center right;
+
+}
+.a6{
+    width:500px;
+    height:500px;
+    border:1px solid red;
+    margin:0 auto;
+    background:url(image/linkden\ logo.png) no-repeat bottom left;
+
+}
+.a7{
+    width:500px;
+    height:500px;
+    border:1px solid red;
+    margin:0 auto;
+    padding:20px;
+    background:red;
+    background-clip:content-box;
+    color:white;
+}
+h1{
+    font-family:sans-serif;
+    font-size:60px;
+    text-align:center;
+}
+.a8{
+    width:500px;
+    height:500px;
+    border:1px solid red;
+    margin:0 auto;
+    background:url(image/linkden\ logo.png) no-repeat;
+    background-size:cover;
+    background-origin:content-box;
+
+}

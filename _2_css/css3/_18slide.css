@@ -1,0 +1,82 @@
+@charset "utf-8";
+.slider-page{
+    width:720px;
+    height:480px;
+    margin:0 auto;
+    border: 5px solid #ccc;
+    -webkit-box-shadow:0px 0px 5px gray;
+    -o-box-shadow:0px 0px 5px gray;
+    -moz-box-shadow:0px 0px 5px gray;
+    box-shadow:0px 0px 5px gray;
+    /* overflow:scroll; */
+    /* overflow-y:hidden; */
+    overflow:hidden;
+}
+.slider{
+    width:3600px;
+    height:480px;
+    float:left;
+    background:red;
+    position:relative;
+    -webkit-animation:slider-page 10s infinite;
+    -o-animation:slider-page 10s infinite;
+    -moz-animation:slider-page 10s infinite;
+    animation:slider-page 10s infinite;
+}
+@-webkit-keyframes slider-page{
+    0%{top:0; left:0;}
+    10%{top:0;left:-720px;}
+    20%{top:0;left:-720px;}
+    30%{top:0; left:-1440px;}
+    40%{top:0; left:-1440px;}
+    50%{top:0; left:-2160px;}
+    60%{top:0; left:-2160px;}
+    70%{top:0; left:-2880px;}
+    80%{top:0; left:-2880px;}
+    /* 100%{top:0; left:-2880px;} */
+    /* 100%{top:0; left:0;} */
+}
+@-o-keyframes slider-page{
+    0%{top:0; left:0;}
+    10%{top:0;left:-720px;}
+    20%{top:0;left:-720px;}
+    30%{top:0; left:-1440px;}
+    40%{top:0; left:-1440px;}
+    50%{top:0; left:-2160px;}
+    60%{top:0; left:-2160px;}
+    70%{top:0; left:-2880px;}
+    80%{top:0; left:-2880px;}
+    /* 100%{top:0; left:-2880px;} */
+    /* 100%{top:0; left:0;} */
+}
+@-moz-keyframes slider-page{
+    0%{top:0; left:0;}
+    10%{top:0;left:-720px;}
+    20%{top:0;left:-720px;}
+    30%{top:0; left:-1440px;}
+    40%{top:0; left:-1440px;}
+    50%{top:0; left:-2160px;}
+    60%{top:0; left:-2160px;}
+    70%{top:0; left:-2880px;}
+    80%{top:0; left:-2880px;}
+    /* 100%{top:0; left:-2880px;} */
+    /* 100%{top:0; left:0;} */
+}
+@keyframes slider-page{
+    0%{top:0; left:0;}
+    10%{top:0;left:-720px;}
+    20%{top:0;left:-720px;}
+    30%{top:0; left:-1440px;}
+    40%{top:0; left:-1440px;}
+    50%{top:0; left:-2160px;}
+    60%{top:0; left:-2160px;}
+    70%{top:0; left:-2880px;}
+    80%{top:0; left:-2880px;}
+    /* 100%{top:0; left:-2880px;} */
+    /* 100%{top:0; left:0;} */
+}
+img{
+    float:left;
+    margin:0;
+    padding:0;
+}

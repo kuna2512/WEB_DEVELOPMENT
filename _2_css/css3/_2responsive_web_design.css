@@ -1,0 +1,64 @@
+*{
+    box-sizing:border-box;
+
+}
+.col-1{
+    width:8.33%;
+    height:40px;
+    background-color:red;
+}
+.col-2{
+    width:16.66%;
+    height:40px;
+    background-color:red;
+}
+.col-3{
+    width:24.99%;
+    height:40px;
+    background-color:red;
+}
+.col-4{
+    width:33.32%;
+    height:40px;
+    background-color:red;
+}
+.col-5{
+    width:41.65%;
+    height:40px;
+    background-color:red;
+}
+.col-6{
+    width:49.98%;
+    height:40px;
+    background-color:red;
+}
+.col-7{
+    width:58.31%;
+    height:40px;
+    background-color:red;
+}
+.col-8{
+    width:66.64%;
+    height:40px;
+    background-color:red;
+}
+.col-9{
+    width:74.97%;
+    height:40px;
+    background-color:red;
+}
+.col-10{
+    width:83.3%;
+    height:40px;
+    background-color:red;
+}
+.col-11{
+    width:91.63%;
+    height:40px;
+    background-color:red;
+}
+.col-12{
+    width:100%;
+    height:40px;
+    background-color:red;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweetshop.com</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        header {
+            width: 100%;
+            height: 60px;
+            box-sizing: border-box;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8f8f8;
+        }
+        #brand-name {
+            margin: 0;
+            color: #ff0f48;
+        }
+        #tag-lines {
+            margin: 0;
+            font-family: calibri;
+        }
+        nav {
+            width: 100%;
+            height: 60px;
+            box-sizing: border-box;
+            background-color: red;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #search-box {
+            width: 500px;
+            height: 40px;
+            border: none;
+            padding: 5px;
+            font-size: 15px;
+        }
+        #search-btn {
+            height: 40px;
+            width: 110px;
+            border: none;
+            margin-left: 10px;
+        }
+        #nav-links {
+            display: flex;
+            gap: 10px;
+        }
+        #nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            background-color: #323232;
+            border-radius: 5px;
+        }
+        section {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #aa{
+            width:1450px;
+            margin-left: 30px;
+        }
+        #ord {
+            float: right;
+        }
+        #bb {
+            width:1450px;
+            height:500px;
+            border-color:red;
+            margin-left: 30px;
+            border: 1px;;
+        }
+        #tab5 {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+        h3 {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+        }
+        #price-header {
+            width: 200px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+        }
+        #price-chart {
+            width: 100%;
+            margin-top: 10px;
+        }
+        #price-list {
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+        }
+        fieldset {
+            width: 690px;
+            height: 720px;
+            margin-top: 50px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-left: 30px;
+        }
+        legend {
+            font-size: 25px;
+            color: #323232;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="brand-name">Sweetshop.com</h1>
+        <p id="tag-lines">India's largest sweets and bakeries shop</p>
+    </header>
+
+    <nav>
+        <div>
+            <input type="search" name="search" id="search-box" placeholder="Search this site">
+            <button id="search-btn">Search Now</button>
+        </div>
+        <div id="nav-links">
+            <a href="#"><button>Home</button></a>
+            <a href="#"><button>Sweets</button></a>
+            <a href="#"><button>Bakeries</button></a>
+            <a href="#"><button>Contact Us</button></a>
+            <a href="#"><button>About Us</button></a>
+        </div>
+    </nav>
+
+    <section>
+        <address>
+            <table id="aa">
+                <tr>
+                    <td id="add">Venue: 4 Jiyalal Roy Road, Bengaluru, Kolkata.</td>
+                    <td id="ord">Order Online: +919934946118, +919934946119.</td>
+                </tr>
+            </table>
+        </address>
+
+        <table id="bb">
+           <tr>
+            <td></td>
+            <td></td>
+           </tr>
+
+        <fieldset>
+            <legend>Order Online</legend>
+            <form>
+                Buyer Name<br/>
+                <input type="text" name="name">
+                <br/>
+                <br/>
+               
+            </form>
+        </fieldset>
+    </section>
+    <footer>
+    </footer>
+</body>
+</html>

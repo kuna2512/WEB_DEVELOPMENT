@@ -1,0 +1,42 @@
+@charset "utf-8";
+h1{
+    color:red;
+    font-family:sans-serif;
+    text-align:center;
+
+    /* animation-name:kunal;
+    animation-duration:4s;
+    animation-iteration-count:infinite; */
+    -webkit-animation:kunal 4s infinite;
+    -o-animation:kunal 4s infinite;
+    -moz-animation:kunal 4s infinite;
+    animation:kunal 4s infinite;
+}
+@-webkit-keyframes kunal{
+    0%{color:blue; font-size:20px;}
+    25%{color:green; font-size:25px;}
+    50%{color:red; font-size:30px;}
+    75%{color:pink; font-size:35px;}
+    100%{color:gray; font-size:40px;}
+}
+@-o-keyframes kunal{
+    0%{color:blue; font-size:20px;}
+    25%{color:green; font-size:25px;}
+    50%{color:red; font-size:30px;}
+    75%{color:pink; font-size:35px;}
+    100%{color:gray; font-size:40px;}
+}
+@-moz-keyframes kunal{
+    0%{color:blue; font-size:20px;}
+    25%{color:green; font-size:25px;}
+    50%{color:red; font-size:30px;}
+    75%{color:pink; font-size:35px;}
+    100%{color:gray; font-size:40px;}
+}
+@keyframes kunal{
+    0%{color:blue; font-size:20px;}
+    25%{color:green; font-size:25px;}
+    50%{color:red; font-size:30px;}
+    75%{color:pink; font-size:35px;}
+    100%{color:gray; font-size:40px;}
+}

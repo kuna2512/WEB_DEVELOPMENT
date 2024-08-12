@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        input::placeholder{
+            position:relative;
+            left:10px;
+        }
+        
+        .page{
+            width:400px;
+            height:360px;
+            /* border:1px dashed red; */
+            margin:30px auto;
+            font-family:sans-serif;
+        }
+        font{
+            font-weight:bold;
+        }
+        b{
+            color:red;
+        }
+        input{
+            width:190px;
+            height:30px;
+            outline:0;
+        }
+        .page input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+    outline:
+}
+        .last{
+            position:relative;
+            left:5px;
+
+        }
+        textarea{
+            width:384px;
+            height:80px;
+            outline:0;
+        }
+        .select{
+            width:384px;
+            height:30px;
+            outline:0;
+        }
+
+        .submit-btn{
+            width:70px;
+            height:40px;
+            border:none;
+            color:white;
+            background-color:#4B99AD;
+            margin-top:10px;
+        }
+        .page input:focus,
+        .page textarea:focus,
+        .page select:focus{
+	        background: #d2d9dd;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <font>Full name <b>*</b>
+        <br/>
+        <input type="text" placeholder="First"><input class="last"  type="text" placeholder="Last">
+        <br/>
+        <br/>
+        Email <b>*</b>
+        <br/>
+        <input type="email" placeholder="Type your E-mail here.."class="mail">
+        <br/>
+        <br/>
+        Subject
+        <br/>
+        <select class="select">
+            <option>Adersite</option>
+            <option>Partnership</option>
+            <option>Genral</option>
+        </select>
+        <br/>
+        <br/>
+        Your Message <b>*</b>
+        <br/>
+        <textarea></textarea>
+        <input type="submit" class="submit-btn">
+    </font>
+    </div>
+</body>
+</html>

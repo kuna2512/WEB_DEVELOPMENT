@@ -1,0 +1,94 @@
+/* eliment selector */
+/* id selector */
+#one{
+    width:100px;
+    height:100px;
+}
+/* class selector */
+.p{
+    width:200px;
+    height:200px;
+}
+
+/* attribute selector */
+h1[align=center]{
+    color:red;
+}
+h1[align=right]{
+    color:aqua;
+}
+h1[align=left]{
+    color:rgb(26, 224, 79);
+}
+/* stick selector */
+*{
+    padding: 0;
+    margin:0;
+}
+
+/* nesting selector */
+div>a{
+    color:red;
+}
+nav>a{
+    color:chartreuse;
+}
+
+/* multi selector */
+#a{
+    width:200px;
+    height:200px;
+    background-color:red;
+    margin-top:20px;
+}
+
+
+#b{
+    width:200px;
+    height:200px;
+    background-color:red;
+    margin-top:20px; 
+}
+#c{
+    width:200px;
+    height:200px;
+    background-color:red;
+    margin-top:20px;
+}
+/* globle selection method */
+#d,#e{
+    width:200px;
+    height:200px;
+    background-color:red;
+    margin-top:20px;
+}
+
+/* local selection method */
+div#f{
+    width:400px;
+    height:200px;
+    background-color:red;
+    margin-top:20px;
+}
+nav#f{
+    width:500px;
+    height:200px;
+    background-color:red;
+    margin-top:20px;
+}
+header#f{
+    width:600px;
+    height:200px;
+    background-color:red;
+    margin-top:20px;
+}
+footer#f{
+    width:700px;
+    height:200px;
+    background-color:red;
+    margin-top:20px;
+}
+/* 
+
+
+*/

@@ -1,0 +1,15 @@
+@charset "utf-8";
+body{
+    overflow-x:hidden;
+}
+
+body::-webkit-scrollbar{
+    width:15px;
+}
+body::-webkit-scrollbar-track{
+    background-color:red;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:rgb(3, 250, 15);
+    border-radius:10px;
+}

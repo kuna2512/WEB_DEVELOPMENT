@@ -1,0 +1,26 @@
+div{
+    width:300px;
+    height:300px;
+    border-style:solid;
+    border-width:20px;
+    border-color:red;
+    background-color:chartreuse;
+    color:brown;
+    padding:20px;
+    box-sizing:border-box;
+
+}
+#div2{
+    width:500px;
+    height:500px;
+    border-style:solid;
+    border-width:20px;
+    border-color:aqua;
+    background-color:red;
+    color:brown;
+    padding:20px;
+    box-sizing:border-box;
+    margin:0 auto;
+    box-shadow:20px  20px 20px  rgba(0, 0, 0, 0.8);
+    border-radius:50%;
+

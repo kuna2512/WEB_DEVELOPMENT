@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweetshop</title>
+    <style>
+         #brand-name{
+            float:left;
+            padding:0;
+            margin:0;
+            font-family:sans-serif;
+            margin-top:5px;
+            color:#ff0f48;
+         }
+        #tag-lines{
+            float:right;
+            font-family:calibri;
+            margin-bottom:2px;
+        }
+        nav{
+            width:100%;
+            height:120px;
+            float:left;
+            box-sizing:border-box;
+            background-color:red;
+            padding:30px;
+        }
+        #search-box{
+            width:500px;
+            height:40px;
+            border-style:none;
+            box-sizing:border-box;
+            float:left;
+            padding:5px;
+            font-size:15px;
+            margin-top:5px;
+        }
+        #search-btn{
+            border-style:none;
+            height:40px;
+            width:110px;
+            box-sizing:border-box;
+            float:left;
+            margin-top:5px;   
+        }
+        a{
+            color:#323232;
+            text-decoration:none;
+            font-family:sans-serif;
+        }
+        #onebtn{
+            float:right;
+            width:90px;
+            height:40px;
+            margin-top:5px;
+        }
+        #sect{
+            width:100%;
+            height:2982px;
+            box-sizing:border-box;
+            border-width:1px;
+            border-style:solid;
+            border-color:red;
+        }
+        #ads{
+            width:1450px;
+            height:60px;
+            margin-left:30px;
+        }
+        #ord{
+            float:right;
+            margin-top:20px;
+        }
+        #aa{
+            width:1450px;
+            height:550px;
+            border-color:red;
+            border-style:solid;
+            margin-left:30px
+        }
+        #bb{
+            width:650px;
+            height:520px;
+            box-sizing:border-box;
+            border-color:red;
+            border-style:solid;
+            border-width:1px;
+        }
+        h3{
+            margin-left:30px
+        }
+        #price-chart{
+            width:650px;
+            height:500px;
+            float:right;
+            box-sizing:border-box;
+            border-width:1px;
+            border-style:solid;
+            border-color:red; 
+            margin-top:10px;
+        }
+        #price-header{
+            box-sizing:border-box;
+             border-width:1px;
+            background-color:black;
+            height:50px;
+            box-sizing:border-box;
+            color:white;
+            text-align:center;
+            font-family:sans-serif;
+        }
+        #price-list{
+            box-sizing:border-box;
+            border-width:1px;
+            background-color:red;
+            border-style:solod;
+            height:470px;
+            box-sizing:border-box;
+            font-size:20px;
+        }
+        fieldset {
+            width: 650px;
+            height: 720px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-left: 30px;
+        }
+        legend {
+            font-size: 25px;
+            color: #323232;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        #order-now{
+            float:right;
+            margin-right:100px;
+        }
+        #dd{
+            width:1450px;
+            height:720px;
+            border-color:red;
+            border-width:1px;
+            border-style:solid;
+            margin-left:30px;
+
+        }
+        #ee{
+            float:right;
+        }
+        #more-sweets-box{
+            width:200px;
+            height:200px;
+            border-style:solid;
+        }
+        #more-sweets-header{
+            width:100%;
+            height:50px;
+            float:left;
+            box-sizing:border-box;
+            border-radius:50%;
+            
+        }
+        #more-sweets-box{
+            width:250px;
+            height:280px;
+            float:left;
+            box-sizing:border-box;
+            border-width:1px;
+            border-style:solid;
+            border-color:#ccc;
+            margin:25px;
+            margin-top:50px;
+            padding:20px;;
+        }
+        #buy-btn{
+            width:140px;
+            height:50px;
+            border-width:1px;
+            border-style:solid;
+             border-color:#ccc;
+             background-color:white;
+             margin-top:20px;
+        
+        }
+        footer{
+            width:100%;
+            height:280px;
+            float:left;
+            box-sizing:border-box;
+            background-color:black;
+            padding:30px;
+        }
+
+        #contact-us{
+            /* float:left;
+            box-sizing:border-box; */
+            color:white;
+        }
+        #c-us{
+            color:white;
+            float:right;
+        }
+        #ee{
+            color:white;
+            float:left;
+        }
+        #dev-by{
+            color:white;
+            margin-top:230px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1 id="brand-name">Sweetshop.com</h1>
+        <p id="tag-lines">India's largest sweets and bakeries shop</p>
+    </header>
+    <br/>
+    <br/>
+    <br/>
+    <nav>
+        <input type="search" name="search" id="search-box" placeholder="Search this site">
+        <a href="#"><input type="submit" value="Search Now" id="search-btn"></a>
+        <button id="onebtn">About Us</button> 
+        <button id="onebtn">Contact Us</button>
+        <button id="onebtn">Bakeries</button>
+        <button id="onebtn">Sweets</button>
+        <button id="onebtn">Home</button>
+</nav>
+<section id="sect">
+    <address>
+        <table id="ads">
+            <tr>
+                <td id="vanue">
+                    Vanue: 4 Jiyalal roy road, bangluru, kolkata.
+                </td>
+                <td id="ord">
+                    Order Onlile: +919934946118, +919934946119.
+                </td>
+            </tr>
+        </table>
+    </address>
+    <table id="aa">
+        <tr>
+            <td>
+                <table width="650" height="520" id="bb">
+                    <tr>
+                        <td colspan="100%" height="50"> <h3>Our Popular Sweets</h3></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center>
+                            <table width="250" height="160" border="1" id="cc">
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </center>
+                        </td>
+                        <td>
+                            <center>
+                            <table width="250" height="160" border="1"  id="cc">
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center>
+                            <table width="250" height="160" border="1"  id="cc">
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </center>
+                        </td>
+                        <td>
+                            <center>
+                            <table width="250" height="160" border="1"  id="cc">
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </center>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table id="price-chart">
+                    <tr>
+                        <td id="price-header">Sweets</td>
+                        <td id="price-header">Prices</td>
+                    </tr>
+                    <tr>
+                        <td id="price-list">
+                            <ol id="sweets-name ">
+                                <li>Rasogulla</li>
+                                <hr color="white"/>
+                                <li>Spunj</li>
+                                <hr color="white"/>
+                                <li>Balshahi</li>
+                                <hr color="white"/>
+                                <li>Rajbhog</li>
+                                <hr color="white"/>
+                                <li>Klakand</li>
+                                <hr color="white"/>
+                                <li>Rasmali</li>
+                                <hr color="white"/>
+                                <li>Gulab Jamun</li>
+                                <hr color="white"/>
+                                <li>Peda</li>
+                                <hr color="white"/>
+                            </ol>
+                        </td>
+                        <td id="price-list">
+                           <ol id="sweets-price">
+                            <li>Rs : 200 kg</li>
+                            <hr color="white"/>
+                            <li>Rs : 200 kg</li>
+                            <hr color="white"/>
+                            <li>Rs : 200 kg</li>
+                            <hr color="white"/>
+                            <li>Rs : 200 kg</li>
+                            <hr color="white"/>
+                            <li>Rs : 200 kg</li>
+                            <hr color="white"/>
+                            <li>Rs : 200 kg</li>
+                            <hr color="white"/>
+                            <li>Rs : 200 kg</li>
+                            <hr color="white"/>
+                            <li>Rs : 200 kg</li>
+                            <hr color="white"/>
+                           </ol>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <table id="dd">
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Order Online</legend>
+                    <form>
+                        Buyer Name:<br/>
+                        <input type="text" name="name">
+                        <br/>
+                        <br/>
+                        Mobile No.:<br/>
+                        <input type="number" name="mobile no." placeholder="+91979831.....">
+                        <br/>
+                        <br/>
+                        Choose Sweets:<br/>
+                        <select>
+                            <option>Rasogulla</option>
+                            <option>Kala Jamun</option>
+                            <option>Kalakand</option>
+                            <option>Jalebi</option>
+                            <option>barfi</option>
+                        </select>
+                        <br/>
+                        <br/>
+                        Type Quantity:<br/>
+                        <input type="number" name="type quantity" placeholder="kg">
+                        <br/>
+                        <br/>
+                        Address:<br/>
+                        <textarea></textarea>
+                        <br/>
+                        <br/>
+                        <input type="submit" value="Order" id="order-now">
+                    </form>
+                </fieldset>
+            
+            </td>
+            <td>
+                <fieldset id="ee">
+                    <center><h1>About Us</h1></center>
+                    <hr/>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+
+    <br/>
+    <div id="more-sweets-header">
+        <center><h1 id="more-sweets">More Sweets</h1></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="photo/Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    <div id="more-sweets-box">
+        <img src="Anime/22.png" width="200" height="170" />
+        <br/>
+        <center><a href="#form-section"><button id="buy-btn">Buy Now</button></a></center>
+    </div>
+    
+    
+</section>
+<footer>
+    <!-- <table width="100%" height="250" border="1"> -->
+    <table width="100%" height="250">
+        <tr>
+            <td id="contact-us">
+                <h1 >Contact-Us</h1>
+                website : www.wseetshop.com<br/>
+                email : sweetshop@gmail.com<br/>
+                phone : +91 9798318837, +91 9135998832.
+            </td>
+            <td id="c-us">
+                <h1>About Us</h1>
+                We are one of the top most sweets quality in<br/> 
+                our area. We make best qualities of food &<br/> 
+                bakeries. We also provide free home delivery<br/>
+                call us now.
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" height="50px;" id="dev-by"><center>Develop By : Wap Institute</center></td>
+        </tr>
+    </table>
+</footer>
+</body>
+</html>

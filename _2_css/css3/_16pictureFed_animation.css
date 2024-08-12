@@ -1,0 +1,22 @@
+@charset "utf-8";
+.ball{
+    width:120px;
+    height:120px;
+    background-color:red;
+    position:relative;
+    -webkit-border-radius:50%;
+    -o-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    -webkit-animation:shu 5s infinite;
+    -o-animation:shu 5s infinite;
+    -moz-animation:shu 5s infinite;
+    animation:shu 5s infinite;
+}
+@keyframes shu{
+    0%{top:0; left:0;}
+    25%{top:0; left:1400px;}
+    50%{top:600px; left:0;}
+    75%{top:600px; left:1400px;}
+    100%{top:600; left:0;}
+}

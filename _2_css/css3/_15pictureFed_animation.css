@@ -1,0 +1,22 @@
+@charset "utf-8";
+.circle{
+    width:120px;
+    height:120px;
+    background:red;
+    position:relative;
+    -webkit-border-radius:50%;
+    -o-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    -webkit-animation:kunal 4s infinite;
+    -o-animation:kunal 4s infinite;
+    -moz-animation:kunal 4s infinite;
+    animation:kunal 4s infinite;
+}
+@keyframes kunal{
+    0%{top:0; left:0;}
+    25%{top:0; left:1400px;background-color:aqua;}
+    50%{top:0; left:0; background-color:blue;}
+    75%{top:0; left:1400px; background-color:burlywood;}
+    100%{top:0; left:0; background-color:chocolate}
+}  

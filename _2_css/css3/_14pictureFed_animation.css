@@ -1,0 +1,47 @@
+@charset "utf-8";
+h1{
+    text-align:center;
+}
+.page{
+    width:720px;
+    height:480px;
+    border:10px groove black;
+    margin:0 auto;
+    background-image:url(image/e.jpg);
+    background-size:cover;
+}
+.page:hover{
+    -webkit-animation:kunal 4s infinite;
+    -o-animation:kunal 20s infinite;
+    -moz-animation:kunal 20s infinite;
+    animation:kunal 20s infinite;
+}
+@-webkit-keyframes kunal{
+    0%{background-position:top 5000px left;}
+}
+@-o-keyframes kunal{
+    0%{background-position:top 5000px left;}
+}
+@-moz-keyframes kunal{
+    0%{background-position:top 5000px left;}
+}
+@keyframes kunal{
+    0%{background-position:top 5000px left;}
+}
+.page2{
+    width:720px;
+    height:480px;
+    border:10px groove black;
+    margin:0 auto;
+    background-image:url(image/d.jpg);
+    background-size:cover;
+}
+.page2:hover{
+    -webkit-animation:shikha 20s infinite;
+    -o-animation:shikha 20s infinite;
+    -moz-animation:shikha 20s infinite;
+    animation:shikha 20s infinite;
+}
+@keyframes shikha{
+    0%{background-position:top 5000px left 5000px;}
+}

@@ -1,0 +1,18 @@
+#row{
+    width:100%;
+    height:150px;
+    border-width:1px;
+    border-style:solid;
+    box-sizing:border-box;
+    border-color:red;
+    
+}
+#col{
+    width:8.33%;
+    height:150px;
+    border-width:1px;
+    border-style:solid;
+    box-sizing:border-box;
+    border-color:red;
+    float:left;
+}

@@ -1,0 +1,453 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:#c0c0c0;
+}
+#page{
+    width:900px;
+    height:890px;
+    border-width:1px;
+    border-color:red;
+    /* border-style:solid; */
+    margin:auto;
+}
+
+header{
+    width:900px;
+    height:181px;
+    float:left;
+    background-image:url(photo/flw/header.jpg);
+    
+}
+#logo{
+    width:190px;
+    height:66px;
+    background-image:url(photo/flw/logo.gif);
+    margin-left:30px;
+}
+#menu{
+    width:624px;
+    height:41px;
+    background-image:url(photo/flw/menu_bg.jpg);
+    margin-left:28px;
+    margin-top:17px;
+}
+#nav-ul{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    background-image:url(photo/flw/menu_bg.jpg);
+}
+#ach{
+    color:white;
+    text-decoration:none;
+    font-size:10px;
+}
+#nav-list{
+    display:inline-block;
+    width:60px;
+    color:white;
+    display:inline-block;
+    text-align:center;
+    margin-left:13px;
+    margin-top:10px;
+    
+}
+#nav-list:hover{
+
+    background-color:rgb(165,30,33);
+    border-width:5px;
+    border-style:none;
+    transition:0,5s;
+    box-shadow:5px  5px 5px rgba(0, 0, 0, 0,8);
+}
+section{
+    width:900px;
+    height:849px;
+    background-image:url(photo/flw/center_bg.gif);
+    float:left;
+}
+
+#left-section{
+    width:490px;
+    height:609px;
+    border-width:1px;
+    border-color:red;
+    /* border-style:solid; */
+    float:left;
+    padding-top:20px;
+    padding-left:20px;
+    box-sizing: content-box;
+}
+#title-container{
+    width:186px;
+    height:25px;
+    float:left;
+    border-width:0.5px;
+    /* border-style:solid; */
+}
+#bt2{
+    float:left;
+}
+#ft{
+    margin-top:20px;
+}
+#cont{
+    width:470px;
+    height:180px;
+    float:left;
+    border-bottom-width:1px;
+    border-bottom-style:dashed;
+    border-bottom-color:#ccc;
+}
+#port{
+    width:149px;
+    height:137px;
+    margin:10px;
+    margin-top:3px;
+    float:left;
+}
+#port-cont{
+    width:270px;
+    height:120px;
+    background-color:white;
+    box-shadow:5px  5px 15px 5px rgba(0, 0, 0, 0.8);
+    margin:10px;
+    margin-top:20px;
+    float:left;
+}
+#font1{
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+}
+#font2{
+    margin-right:15px;
+    margin-bottom:10px;
+    float:right;
+}
+
+#new-pro-con{
+    width:132px;
+    height:132px;
+    float:left; 
+    margin-left:17px;
+    margin-top:15px;
+    text-align:center;
+    font-family:arial;
+    color:#ccc;
+}
+.clear{
+    clear:left;
+
+}
+#new-pro-box{
+    width:132px;
+    height:115px;
+    float:left;
+    border-width:1px;
+    border-color:#ddd;
+    /* border-style:solid; */
+    border-radius:5px;
+    margin-top:3px;
+    background-color:white;
+    background-image:url(photo/flw/new_icon.gif);
+    background-repeat:no-repeat;
+    background-position:top right;
+}
+#thumb1{
+    margin-top:20px;
+    margin-right:10px;
+}
+#thumb2{
+    margin-top:25px;
+    margin-right:10px;
+}
+#thumb3{
+    margin-top:27px;
+    margin-right:10px;
+}
+
+#right-section{
+    width:370px;
+    height:809px;
+    border-width:1px;
+    float:left;
+    border-color:red;
+    /* border-style:solid; */
+    box-sizing: content-box;
+    padding-top:20px;
+    padding-left:16px;
+}
+#language-box{
+    width:138px;
+    height:13px;
+    float:left;
+    border-width:1px;
+    /* border-style:solid; */
+    border-color:red;
+    color:red;
+    font-family:arial;
+    font-size:12px;
+    padding-bottom:5px;
+    box-sizing:content-box;
+}
+#flag-pic{
+    margin-left:4px;
+}
+/* .flag-pic-border{
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;
+    padding:3px;
+
+} */
+#currency{
+    width:158px;
+    height:13px;
+    float:left;
+    /* border-style:solid; */
+    border-color:red;
+    border-width:1px;
+    margin-left:10px;
+    font-size:12px;
+    font-family:arial;
+    color:red;
+    padding-bottom:5px;
+    box-sizing:content-box;
+    float:left;
+}
+#fnt{
+    float:left;
+}
+#currency-box{
+    width:25px;
+    height:11px;
+    /* border-style:solid; */
+    border-width:1px;
+    float:left;
+    padding-bottom:5px;
+    box-sizing:content-box;
+    color:black;
+    border-color:white;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left:7px;
+    
+}
+#currency-boxx{
+    width:25px;
+    height:11px;
+    /* border-style:solid; */
+    border-width:1px;
+    background-color:rgb(241, 140, 9);
+    float:left;
+    padding-bottom:5px;
+    box-sizing:content-box;
+    color:white;
+    border-color:black;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left:7px;
+}
+#a1{
+    text-decoration:none;
+}
+#a11{
+    text-decoration:none;
+    color:white;
+}
+#my-cart{
+    width:337px;
+    height:40px;
+    /* border-style:solid; */
+    border-color:red;
+    border-width:1px;
+    float:left;
+    margin-top:10px;
+
+}
+#cart-logo{
+    margin-top:5px;
+    float:left;
+}
+#cart-text{
+    margin-top:5px;
+    float: left;
+}
+#view{
+    margin-top:5px;
+    color:red
+}
+#my-cart-box{
+    width:148px;
+    height:20px;
+    font-size:15px;
+    float:left;
+    margin:7px;
+    border-width:0.5px;
+    /* border-style:solid; */
+    border-color:whitesmoke;
+    box-shadow: 0.2px 0.2px 0.2px 0.5px;
+}
+#hr{
+    width:337px;
+    height:14px;
+    background-color: rgb(199, 199, 191);
+    float:left;
+    margin-top:10px;
+}
+#our-shop{
+    width:137px;
+    height:20px;
+    /* border-style:solid; */
+    border-width:1px;
+    float:left;
+    margin-top:10px;
+
+}
+#logo3{
+    float:left;
+
+}
+#about-shop{
+    width:200px;
+    height:120px;
+    /* border-style:solid; */
+    margin-top:20px;
+    float:left;
+    border-width:0.5px;
+}
+.about1{
+    clear:left;
+}
+#about-shop1{
+    width:127px;
+    height:85px;
+    margin-top:35px;
+    margin-left:10px;
+    background-image:url(photo/flw/about.gif);
+    float:left;
+    box-shadow: 1px 1px 5px 5px;
+}
+#permotion{
+    width:150px;
+    height:510px;
+    border-width:0.5px;
+    /* border-style:solid; */
+    float:left;
+    margin-top:10px;  
+}
+#permotion-logo{
+    width:137px;
+    height:20px;
+    /* border-style:solid; */
+    border-width:1px;
+    float:left;
+    
+}
+#new-pro-con1{
+    width:132px;
+    height:132px;
+    float:left;
+    margin-top:15px;
+    text-align:center;
+    font-family:arial;
+    color:#ccc;
+    margin-left:9px;
+}
+#new-pro-box1{
+    width:132px;
+    height:115px;
+    float:left;
+    border-width:1px;
+    border-color:#ddd;
+    /* border-style:solid; */
+    border-radius:5px;
+    margin-top:3px;
+    background-color:white;
+    background-image:url(photo/flw/promo_icon.gif);
+    background-repeat:no-repeat;
+    background-position:top right;
+}
+
+
+#categories{
+    width:150px;
+    height:510px;
+    border-width:0.5px;
+    /* border-style:solid; */
+    float:left;
+    margin-top:10px;
+    margin-left:37px;
+    
+}
+#cat-div{
+    width:126px;
+    height:190px;
+    float:left;
+    font-size:13px;
+}
+/* start footer coding */
+footer{
+    width:900px;
+    height:100px;
+    float:left;
+    background-color:white;
+    border-top-width:1px;
+    border-top-style:dashed;
+    border-top-color:#ccc;
+    background-image:url(photo/flw/footer_bg.gif);
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+#shop-pic{
+    width:510px;
+    height:65px;
+    border-width:1px;
+    /* border-style:solid; */
+    border-color:red;
+    float:left;
+    background-repeat:no-repeat;
+
+}
+
+#csscreme{
+    clear:left;
+    margin-left:5px;
+}
+#footer-nav{
+    width:360px;
+    height:35px;
+    border-width:1px;
+    /* border-style:solid; */
+    border-color:red;
+    float:left;
+    margin-left:15px;
+
+}
+#footer-menu{
+    list-style:none;
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+}
+#aa{
+    text-decoration:none;
+    font-size:12px;
+    
+}
+#footer-item{
+    width:60px;
+    height:20px;
+    /* border-style:solid; */
+    float:left;
+    margin:5px;
+    text-align:center;
+    
+}
+#footer-item:hover{
+    background-color:brown;
+}
+#footer-item:hover a{
+    color:white;
+}

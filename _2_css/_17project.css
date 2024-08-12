@@ -1,0 +1,469 @@
+*{
+    box-sizing:border-box;
+    /* border-style:dashed; */
+    border-color:red;
+    border-width:1px;
+}
+/* #box-size{
+    width:1519px;
+    height:1348px;
+    border-color:red;
+    border-width:1px;
+    margin-top:50px;
+    float:left;
+} */
+
+#head{
+    width:960px;
+    height:195px;
+    border-color:red;
+    border-width:1px;
+    margin:0 auto;
+}
+#logo{
+    width:340px;
+    height:93px;
+    border-color:red;
+    border-width:1px;
+    margin:0 auto;
+}
+header{
+    width:550px;
+    height:100px;
+    margin:0 auto;
+}
+#btn{
+    width:73px;
+    height:14px;
+    float:left;
+    margin-top:40px;
+    text-align:center;
+    margin-left:30px;
+   
+}
+#btn1{
+    font-weight:bold;
+    color:#0BA39C;
+    text-decoration:none;
+}
+#btn2{
+    font-weight:bold;
+    text-decoration:none;
+    color:black;
+}
+#btn2:hover{
+    color:#0BA39C;
+}
+#sec{
+    width:1519px;
+    height:584px;
+    background-image:url(mustacheenthusiast/images/the-beacon.jpg);
+    margin-top:50px;
+}
+#sec2{
+    width:50%;
+    height:334px;
+    position:relative;
+    left:50%;
+    top:100px;
+}
+#the{
+    width:397px;
+    height:60px;
+    background-color:white;
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+    
+}
+h1{
+    font-family:sans-serif;
+    position:relative;
+    top:15px;
+}
+
+#the1{
+    width:367px;
+    height:50px;
+    background-color:black;
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+    margin-top:20px;    
+}
+#the2{
+    width:438px;
+    height:50px;
+    background-color:black;
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+    margin-top:20px;
+
+    
+}#the3{
+    width:340px;
+    height:50px;
+    background-color:black;
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+    margin-top:20px;
+}
+#the4{
+    width:150px;
+    height:60px;
+    background-color:#0fbfb6  ;
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+    margin-top:20px;
+}
+#the4:hover{
+    background-color:#1ccec5  ;
+}
+#ft{
+    position:relative;
+    top:30%;
+    font-size:18px;
+    font-family:arial;
+}
+#ft1{
+    position:relative;
+    top:30%;
+    font-size:18px;
+    font-family:arial;
+    cursor:pointer;
+}
+
+#pic{
+    width:960px;
+    height:335px;
+    margin:0 auto;
+    position:relative;
+    top:20px;
+}
+#pic-iteam{
+    width:296px;
+    height:238px;
+    float:left;
+    position:relative;
+    top:35px;
+    margin-left:17px;
+}
+#clear{
+    clear:left;
+}
+#pic-name{
+    height:210px;
+    width:296px;
+}
+#hh{
+    text-align:center;
+    position:relative;
+    top:30px;
+    font-size:
+    
+}
+footer{
+    width:100%;
+    height:163px;
+    position:relative;
+    top:50px;
+    background-color: black;
+}
+#footer-box{
+    width:940px;
+    height:46px;
+    position:relative;
+    top:40%;
+    left:19%;
+}
+#footer-text{
+    width:276px;
+    height:46px;
+    float:left;
+}
+#fff{
+    position:relative;
+    bottom:3px;
+    color:white;
+}
+#footer-logo{
+    width:256px;
+    height:46px;
+    float:right;
+}
+#logo4{
+    width:44px;
+    height:46px;
+    float:left;
+    margin-left:16px;
+    background-image:url(mustacheenthusiast/images/icons/icon-twitter.jpg);
+}
+#logo1{
+    width:44px;
+    height:46px;
+    float:left;
+    margin-left:16px;
+    background-image:url(mustacheenthusiast/images/icons/icon-facebook.jpg);
+}
+#logo2{
+    width:44px;
+    height:46px;
+    float:left;
+    margin-left:16px;
+    background-image:url(mustacheenthusiast/images/icons/icon-googleplus.jpg);
+}
+#logo3{
+    width:44px;
+    height:46px;
+    float:left;
+    margin-left:16px;
+    background-image:url(mustacheenthusiast/images/icons/icon-pinterest.jpg);
+}
+#logo4:hover{
+    background-image:url(mustacheenthusiast/images/icons/icon-twitter-hover.jpg);
+}
+#logo1:hover{
+    background-image:url(mustacheenthusiast/images/icons/icon-facebook-hover.jpg);
+}
+#logo2:hover{
+    background-image:url(mustacheenthusiast/images/icons/icon-googleplus-hover.jpg);
+}
+#logo3:hover{
+    background-image:url(mustacheenthusiast/images/icons/icon-pinterest-hover.jpg);
+}
+/* 
+
+START ABOUT CODING.
+
+*/
+#started{
+    width:498px;
+    height:70px;
+    margin:0 auto;
+    margin-top:15px;
+}
+#m-s{
+    text-align:center;
+    position:relative;
+    bottom:20px;
+}
+#about-box{
+    width:960px;
+    height:935px;
+    margin:0 auto;
+}
+#about-image{
+    width:618px;
+    height:296px;
+    margin:0 auto;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+
+}
+#abt{
+    width:560px;
+    height:24px;
+    margin:0 auto;
+    margin-top:40px;
+    text-align:center;
+}
+#abt-text{
+    width:560px;
+    height:96px;
+    margin:0 auto;
+    text-align:center;
+    
+}
+p{
+    position:relative;
+    bottom:10px;
+}
+/* 
+
+start gallery coding
+
+*/
+#gallery{
+    width:250px;
+    height:60px;
+    margin:0 auto;
+    background-color:black;
+    color:white;
+    text-align:center;
+    position:relative;
+
+}
+#p-header{
+    font-size:35px;
+    position: relative;
+    top:10px;
+}
+#gallery-box{
+    width:960px;
+    height:955px;
+    margin-top:20px;
+    margin:0 auto;
+}
+#gallery-item{
+    width:299px;
+    height:298px;
+    border-color:black;
+    border-style:solid;
+    float:left;
+    margin:10px;
+    background-color:rgba(255, 255, 255, 0.532);
+}
+/* 
+
+blog
+
+*/
+#blog-box{
+    width:940px;
+    height:960px;
+    margin:0 auto;
+}
+#blog-box1{
+    width:100%;
+    height:299px;
+    margin-top:20px;
+    border-color:black;
+    /* border-style:solid; */
+    border-width:1px;
+}
+#box-item1{
+    width:377px;
+    height:299px;
+    float:left;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+}
+#box-item2{
+    width:560.5px;
+    height:299px;
+    float:left;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    text-align:center;
+}
+#read-this{
+    width:160px;
+    height:40px;
+    margin:0 auto;
+    position:relative;
+    bottom:20px;
+    background-color:black;
+    border-width:1px;
+    color:white;
+    font-size:20px;
+}
+#read{
+    position:relative;
+    top:10px;
+}
+/* 
+
+content
+
+*/
+#contact{
+    width:454px;
+    height:75px;
+    position:relative;
+    /* top:30px; */
+    margin:0 auto;
+    background-color:black;
+}
+#con-header{
+    color:white;
+    text-align:center;
+    font-size:40px;
+    position:relative;
+    top:15px;
+}
+#contact-box{
+    width:620px;
+    height:810px;
+    margin:0 auto;
+    margin-top:30px;
+}
+#contact-boxs{
+    width:620px;
+    height:75px;
+    margin-top:30px;
+    text-align:center;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+}
+#contact-boxs1{
+    width:620px;
+    height:75px;
+    margin-top:40px;
+    text-align:center;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+}
+#message2{
+    width:620px;
+    height:200px;
+    margin-top:40px;
+    text-align:center;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+}
+#send{
+    width:110px;
+    height:67px;
+    margin:0 auto;
+    position:relative;
+    top:40px;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    background-color:black;
+    color:white;
+
+}
+#send2{
+    width:109px;
+    height:68px;
+    margin:0 auto;
+    position:relative;
+    top:40px;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    background-color:black;
+    color:white;
+
+}
+
+#name{
+    color:black;
+    margin-top:35px;
+}
+#name1{
+    color:black;
+    margin-top:35px;
+}
+#name2{
+    color:black;
+    margin-top:35px;
+}
+#name3{
+    color:black;
+    margin-top:35px;
+}
+#name4{
+    color:black;
+    margin-top:35px;
+}

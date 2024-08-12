@@ -1,0 +1,251 @@
+*{
+    box-sizing:border-box;
+
+}
+body{
+    margin:0;
+    padding:0;
+}
+.col-1{
+    width:8.33%;
+}
+.col-2{
+    width:16.66%;
+}
+.col-3{
+    width:25%;
+}
+.col-4{
+    width:33.32%;
+}
+.col-5{
+    width:41.65%;
+}
+.col-6{
+    width:50%;
+}
+.col-7{
+    width:58.31%;
+}
+.col-8{
+    width:66.64%;
+}
+.col-9{
+    width:74.97%;
+}
+.col-10{
+    width:83.3%;
+}
+.col-11{
+    width:91.66%;
+
+}
+.col-12{
+    width:100%;
+
+}
+/* end grid system */
+
+/* stsrt desktop coding */
+
+.header, .nav, .section, .footer{
+    /* border-width:1px;
+    border-color:red;
+    border-style:solid; */
+    float:left;
+    margin-left:4.17%;
+    margin-right:4.17%;
+
+}
+.header{
+    height:150px;
+    background-color:black;
+    color:white;
+}
+.nav{
+    height:60px;
+}
+ul{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+li{
+    float:left;
+    background-color:red;
+    height:60px;
+    text-align:center;
+    padding-top:18px;
+}
+a{
+    color:white;
+    text-decoration:none;
+    font-family:sans-serif;
+
+}
+
+.section{
+    height:480px;
+    background-color:blue;
+    color:white;
+}
+.footer{
+    height:60px;
+    background-color:black;
+    color:white;
+}
+/* end desktop coding */
+
+/* start phone responsive */
+@media only screen and (max-width:660px)
+{
+    col-11{
+        width:100%;
+    }
+    .header, .nav, .section, .footer{
+        margin:0;
+    }
+    .header{
+        height:80px;
+    }
+    .nav{
+        height:auto;
+    }
+    .col-3{
+        width:100%;
+        clear:left;
+        margin-top:1px;
+        background-color:cadetblue;
+        height:40px;
+        padding-top:11px;
+    }
+    .section{
+        height:250px;
+
+    }
+    h2{
+        font-family:sans-serif;
+        font-size:25px;
+    }
+    .footer{
+        height:40px;
+        padding-top:10px;
+    }
+    h3{
+        padding:0;
+        margin:0;
+        font-family:sans-serif;
+    }
+
+}
+/* end phone responsite */
+
+/* start coding for phone responsive  */
+@media only screen and (min-width:768px)
+{
+    .header, .nav, .section, .footer{
+        margin:0;
+        padding:0;
+
+    }
+    .col-11{
+        width:100%;
+    }
+    .header{
+        height:110px;
+        background-color:darkslategray
+    }
+    h1{
+        padding:15px;
+        color:limegreen;
+    }
+    .nav{
+        height:auto;
+    }
+    .col-3{
+        width:49.8%;
+        height:60px;
+        background-color:chartreuse;
+        margin-top:1px;
+        margin-left:1px;
+        padding-top:20px;
+    }
+    a{
+        color:blue
+    }
+    .section{
+        height:350px;
+    }
+    h2{
+        color:burlywood;
+        font-size:30px;
+    }
+    footer{
+        width:60px;
+    }
+    h3{
+        color:brown;
+        padding:5px;
+        margin:0;
+        font-size:30px;
+    }
+    
+}
+
+/* end coding for phone responsive  */
+@media only screen and (min-width:992px)
+{
+    .header, .nav, .section, .footer{
+        margin:0;
+        padding:0;
+
+    }
+    .col-11{
+        width:100%;
+    }
+    .header{
+        height:150px;
+        background-color:rgb(0, 0, 0)
+    }
+    h1{
+        padding:35px;
+        color:rgb(216, 230, 13);
+    }
+    .nav{
+        height:auto;
+    }
+    .col-3{
+        width:24.9%;
+        height:80px;
+        background-color:rgb(0, 174, 255);
+        margin-top:1px;
+        margin-left:1px;
+        padding-top:20px;
+        float:left;
+    }
+    a{
+        position:relative;
+        top:7px;
+        font-size:25px;
+        color:rgb(0, 0, 0);
+    }
+    .section{
+        margin-top:1px;
+        height:400px;
+        background-color: aqua;
+    }
+    h2{
+        color:rgb(145, 6, 172);
+        font-size:30px;
+    }
+    footer{
+        height:100px;
+    }
+    h3{
+        color:rgb(46, 243, 98);
+        padding:10px;
+        margin:0;
+        font-size:30px;
+    }
+    
+}
