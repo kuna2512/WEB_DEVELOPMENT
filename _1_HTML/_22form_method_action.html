@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM METHOD AND ACTION</title>
+</head>
+<body>
+
+    <!-- method="post" & action="success.php" are used for hide the essential information that showing on the url form afer the submit of the form.  -->
+    <form method="post" action="success.php">
+        USERNAME<br>
+        <input type="text" name="username" placeholder="type your name here" size="30" maxlenhth="20">
+        <br><br>
+        PASSWORD<br>
+        <input type="password" name="password" placeholder="type your password here" maxlength="10" required="required">
+        <br><br>
+        DOB<br>
+        <input type="date" name="DOB">
+        <br><br>
+
+        
+        <!-- here we used radio button tag for make a button for select different types of option -->
+       GENDER<br>
+        <input type="radio" name="gender" value="male">MALE
+        <input type="radio" name="gender" value="female">FEMALE
+        <br>
+        <br>
+        <!-- here we use file tag for upload images,pdf,and medias on the website and also use accept tag for you want to take which type of documents. -->
+        <input type="file" accept=".jpg">
+        <input type="reset" value="ERASE ALL">
+
+        <input type="submit" value="login">
+        <br><br>
+       
+
+    </form> 
+</body>
+</html>

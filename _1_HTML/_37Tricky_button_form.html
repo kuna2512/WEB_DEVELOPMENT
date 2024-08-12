@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tricky Button form</title>
+    <style>
+        body{
+            font-family:Arial, sans-serif;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            margin:0;
+        }
+        .container{
+            text-align:center;
+        }
+        input{
+            display:block;
+            margin:10px auto;
+            width:200px;
+        }
+        button{
+            padding:10px 20px;
+            cursor:pointer;
+        }
+    </style>
+    <script>
+        const createButton=document.getElementById('createButton');
+        createButton.addEventListener('mouseover',()=>{
+            const x = Math.randoe()*(window.innerWidth-createButton.clientWidth);
+            const y = math.random()*(window.innerHeight-createButton.clientHeight);
+            createButton.style.position='absolute';
+            createButton.style.left='${x}px';
+            createButton.style.left='${y}px';
+
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+    <h2>Sign Up</h2>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" is="password" placeholder="Password">
+    <button id="createButton">Create</button>
+</div>
+</body>
+</html>
