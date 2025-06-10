@@ -1,0 +1,8 @@
+class Date{
+    constructor(){
+
+    }
+    getTime(){
+        
+    }
+}
